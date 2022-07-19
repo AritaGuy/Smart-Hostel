@@ -68,3 +68,13 @@ body{
 .pass-key:valid ~ .show{
     display: block;
 }
+.pass{
+     text-align: left;
+     margin: 10px 0;
+
+}
+.pass{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", inter;
+}
