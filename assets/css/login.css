@@ -4,6 +4,10 @@
     box-sizing: border-box;
     user-select: none;
 }
+body{
+    background-image: url(../images/undraw_sleep_analysis_o5f9.png);
+    
+}
 .content{
     border-radius: 10px;
     position: absolute;
