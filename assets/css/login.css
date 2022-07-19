@@ -16,14 +16,14 @@ body{
     left: 50%;
     text-align: center;
     padding: 60px 30px;
-    width: 250px;
+    width: 350px;
     transform: translate(-50%, -50%);
     background: #395B64;
     border: 1px solid #A5C9CA;
     box-shadow: 0 0 5px #395B64;
 }
 .content header{
-    color: white;
+    color: #A5C9CA;
     font-size: 32px;
     font-weight: 600;
     margin: 0 0 35px 0;
@@ -31,8 +31,22 @@ body{
 }
 .field{
     position: relative;
-    height: 45px;
+    height: 35px;
     width: 100%;
     display: flex;
-    background: #A5C9CA;
+    justify-content: center;
+}
+.field span{
+    width: 5px;
+    line-height: 5px;
+    color: #A5C9CA;
+}
+.field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #A5C9CA;
+    font-size: 16px;
+    font-family: "Poppins", inter;
 }
