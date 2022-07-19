@@ -26,3 +26,8 @@ body{
     padding: 0 40px;
     box-sizing: border-box;
 }
+.form .text_field{
+    position: relative;
+    border-bottom: 2px solid #030303;
+    margin: 30px 0;
+}
