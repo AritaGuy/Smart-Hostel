@@ -1,0 +1,61 @@
+/* html{
+    background-color: azure;
+} */
+body{
+ margin-left: 300px;
+ margin-right: 300px;
+ box-shadow: 2px grey solid; 
+ /* background-color: yellow; */
+ font-family: 'Poppins', sans-serif;
+ position: relative;
+}
+#topbar{
+    height: 150px;
+    width: 100%;
+    background-color: #A5C9CA;
+    position: relative;
+    display: flex;
+}
+#sidebar{
+    height: 715px;
+    width: 150px; 
+    background-color: #A5C9CA;
+    /* float: left; */
+    top: 250px;
+    /* position: relative; */
+    margin-top: 10px;
+    display: block;
+}
+#midbar{
+    margin-left: 170px;
+    height: 715px;
+    width: 86.5%;
+    float: left;
+    /* background-color: lightblue; */
+    top: 160px;
+    position: absolute;
+    background-image: url(/assets/images/dash-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Head{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#student_info{
+    float: right;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+.select{
+    height: 60px;
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background: none;
+    border-style: none;
+}
+.select:hover{
+    border-bottom: solid white 3px;
+    
+}
