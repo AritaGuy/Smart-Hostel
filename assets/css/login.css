@@ -42,15 +42,16 @@ body{
 }
 .field{
     position: relative;
-    height: 45px;
+    height: 35px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 .field span{
-    width: 15px;
-    line-height: 5px;
+    width: 25px;
+    line-height: 15px;
     color: #A5C9CA;
+
 }
 .field input{
     height: 100%;
