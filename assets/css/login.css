@@ -53,3 +53,14 @@ body{
 .space{
     margin-top: 16px;
 }
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #A5C9CA;
+    display: none;
+    cursor: pointer;
+    font-family: "Poppins", inter;
+
+}
