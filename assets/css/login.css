@@ -18,10 +18,10 @@ body{
     padding: 60px 30px;
     width: 350px;
     transform: translate(-50%, -50%);
-    background: #395B64;
+    background: black;
     border: 1px solid #A5C9CA;
-    box-shadow: 0 0 5px #395B64;
-    opacity: 90%;
+    box-shadow: 0 0 5px #E7F6F2;
+    opacity: 70%;
 }
 .content header{
     color: #A5C9CA;
@@ -30,9 +30,15 @@ body{
     margin: 0 0 35px 0;
     font-family: "poppins", Inter ;
 }
+.content p{
+    color: #A5C9CA;
+}
+#sign_up{
+    
+}
 .field{
     position: relative;
-    height: 35px;
+    height: 45px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -63,7 +69,6 @@ body{
     display: none;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
-
 }
 .pass-key:valid ~ .show{
     display: block;
@@ -71,7 +76,6 @@ body{
 .pass{
      text-align: left;
      margin: 10px 0;
-
 }
 .pass a{
     color: #A5C9CA;
