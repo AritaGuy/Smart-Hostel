@@ -6,13 +6,13 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
-    background-color: #395B64;
-    color: white;
+    background-color: #E7F6F2;
+    color: #2C3333;
     font-family: 'Inter', sans-serif;
     height: 100px;
 }
 .nav a{
-    color: white;
+    color:#2C3333;
     text-decoration: none;
 }
 .nav_items a{
@@ -22,24 +22,24 @@ body{
 
 .nav_items a:focus{
     text-decoration: underline;
-    text-decoration-color: white;
-    color: white;
+    text-decoration-color: #2C3333;
+    color: #2C3333;
     text-decoration-thickness:5px;
     text-underline-offset: 8px;
 }
 
 .nav_heading a:focus{
     text-decoration: underline;
-    text-decoration-color: white;
-    color: white;
+    text-decoration-color: #2C3333;
+    color: #2C3333;
     text-decoration-thickness:5px;
     text-underline-offset: 8px;
 }
 
 .login a:focus, .signup a:focus{
     text-decoration: underline;
-    text-decoration-color: white;
-    color: white;
+    text-decoration-color: #2C3333;
+    color: #2C3333;
     text-decoration-thickness:5px;
     text-underline-offset: 8px;
 }
@@ -56,10 +56,13 @@ div a:hover{
 }
 .nav_heading{
     align-self: center;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     font-weight: 900;
     font-size: 30px;
+    position: relative;
+    right: 150px;
 }
+
 
 .login{
     align-self: center;
@@ -79,9 +82,42 @@ div a:hover{
 }
 
 [alt=logo]{
-    width: 15%;
-    height: 15%;
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 10px;
 }
+                                            /* Second section */
+.container1{
+
+    height: 900px;
+    background:url('../images/beds.jpg');
+    background-size: 100% 900px;
+    background-repeat: no-repeat;
+}
+.container2{
+    float: right;
+    border-radius: 10px;
+    width:50%;
+    height: 80%;
+    background-color: #E7F6F2;
+    border: #2C3333 solid 1px;
+    margin-top: 90px;
+    margin-right: 150px;
+    opacity: 0.9;
+    color: #2C3333;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.container2:hover{
+    opacity: 1;
+}
+
+.container2 h1{
+    margin: 120px 50px;
+}
+
 
                     /* Footer */
 
@@ -91,7 +127,7 @@ div a:hover{
     top: 400px; */
     height: 400px;
     justify-content: center;
-    background-color: #395B64;
+    background-color: #E7F6F2;
     align-items: center;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -103,13 +139,13 @@ div a:hover{
 }
 .container10 h1{
     font-family: 'Inter', sans-serif;
-    color: white;
+    color: #2C3333;
 
 }
 
 .container10 p{
     font-family: 'Poppins', sans-serif;
-    color: white;   
+    color: #2C3333;   
 }
 
 #email1{
@@ -135,7 +171,7 @@ div a:hover{
 }
 
 #submit:hover{
-    background-color: #A5C9CA;
+    background-color: #2C3333;
 }
 
 .container11{
@@ -145,8 +181,8 @@ div a:hover{
     height: 500px;
     justify-content: space-between;
     align-items: center;
-    background-color: #395B64;
-    color: white;
+    background-color: #E7F6F2;
+    color: #2C3333;
 }
 .container15{
     width: 25%;
@@ -167,8 +203,8 @@ div a:hover{
     padding: 10px 0;
     font-family: 'Inter', sans-serif;
     text-align: center;
-    color: white;
-    background-color: #395B64;
+    color: ;
+    background-color: #E7F6F2;
 }
 
 .container14 li{
@@ -266,14 +302,20 @@ div a:hover{
 }
 .container12{
     margin-left: 10px;
-    background-color: grey;
+    background-color: #A5C9CA;
     width: 180px;
     border-radius: 5px;
+}
+.container12:hover{
+    background-color: white;
+}
+.container13:hover{
+    background-color: white;
 }
 
 .container13{
     margin-left: 10px;
-    background-color: grey;
+    background-color: #A5C9CA;
     width: 180px;
     border-radius: 5px;
 }
