@@ -7,3 +7,12 @@ body{
     background-repeat: no-repeat;
     background: #A5C9CA;
 }
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    width: 30vw;
+    background: #2C3333;
+    border-radius: 10px;
+}
