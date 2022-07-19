@@ -64,3 +64,6 @@ body{
     font-family: "Poppins", inter;
 
 }
+.pass-key:valid ~ .show{
+    display: block;
+}
