@@ -82,3 +82,162 @@ div a:hover{
     width: 15%;
     height: 15%;
 }
+
+                    /* Footer */
+
+.container9{
+    display: flex;
+    /* position: relative;
+    top: 400px; */
+    height: 400px;
+    justify-content: center;
+    background-color: #395B64;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+    
+}
+.container10{
+    text-align: center;
+}
+.container10 h1{
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+}
+
+.container10 p{
+    font-family: 'Poppins', sans-serif;
+    color: white;   
+}
+
+#email1{
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+#email1:hover{
+    background-color:rgb(209, 230, 248);
+}
+#submit{
+    padding: 12px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    right: 5px;
+    top: 1px;
+}
+
+#submit:hover{
+    background-color: #A5C9CA;
+}
+
+.container11{
+    /* position: relative;
+    top: 400px; */
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #395B64;
+    color: white;
+}
+.container15{
+    width: 25%;
+}
+.container14{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-self: flex-start;
+    position: relative;
+    top: 45px;
+    flex-wrap: wrap;
+}
+
+.container16{
+    position: relative;
+    top: 5px;
+    padding: 10px 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #395B64;
+}
+
+.container14 li{
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+
+.fa.fa-twitter{
+    border: solid white 1px;
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 50px;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.fa.fa-facebook{
+    border: solid white 1px;
+    margin-right: 20px;
+    font-size: 50px;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.fa.fa-instagram{
+    border: solid white 1px;
+    font-size: 50px;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.fa.fa-instagram:hover{
+    color: #7ad1e0;
+}
+.fa.fa-twitter:hover{
+    color: #7ad1e0;
+}
+.fa.fa-facebook:hover{
+    color: #7ad1e0;
+}
+
+.footerh1{
+    position: relative;
+    left: 39px;
+}
+
+.container15 p{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    margin-bottom: 40px;
+
+}
+#more a{
+    color: white;
+    text-decoration: none;
+}
+
+#more a:hover{
+    color: #A5C9CA;
+}
+
