@@ -73,8 +73,11 @@ body{
      margin: 10px 0;
 
 }
-.pass{
-    color: white;
+.pass a{
+    color: #A5C9CA;
     text-decoration: none;
     font-family: "Poppins", inter;
+}
+.pass:hover a{
+    text-decoration: underline;
 }
