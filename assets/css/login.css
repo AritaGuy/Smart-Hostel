@@ -21,6 +21,7 @@ body{
     background: #395B64;
     border: 1px solid #A5C9CA;
     box-shadow: 0 0 5px #395B64;
+    opacity: 90%;
 }
 .content header{
     color: #A5C9CA;
