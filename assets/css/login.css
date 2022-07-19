@@ -6,7 +6,7 @@
 }
 body{
     background-image: url(../images/undraw_sleep_analysis_o5f9.png);
-    
+
 }
 .content{
     border-radius: 10px;
@@ -21,4 +21,11 @@ body{
     background: #395B64;
     border: 1px solid #A5C9CA;
     box-shadow: 0 0 5px #395B64;
+}
+.content header{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: "poppins", Inter ;
 }
