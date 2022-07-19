@@ -29,3 +29,10 @@ body{
     margin: 0 0 35px 0;
     font-family: "poppins", Inter ;
 }
+.field{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: #A5C9CA;
+}
