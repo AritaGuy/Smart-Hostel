@@ -241,3 +241,49 @@ div a:hover{
     color: #A5C9CA;
 }
 
+[alt=google-play]{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.fa.fa-apple{
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: white;
+}
+.container12 h6{
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.container12 h4{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.container12{
+    margin-left: 10px;
+    background-color: grey;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.container13{
+    margin-left: 10px;
+    background-color: grey;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.container13 h6{
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+
+.container13 h4{
+    margin-left: 50px;
+    margin-top: 5px;
+}
