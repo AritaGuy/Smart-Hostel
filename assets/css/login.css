@@ -4,3 +4,17 @@
     box-sizing: border-box;
     user-select: none;
 }
+.content{
+    border-radius: 10px;
+    position: absolute;
+    content: "#";
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 60px 30px;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    background: #395B64;
+    border: 1px solid #A5C9CA;
+    box-shadow: 0 0 5px #395B64;
+}
