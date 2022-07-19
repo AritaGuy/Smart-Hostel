@@ -81,3 +81,14 @@ body{
 .pass:hover a{
     text-decoration: underline;
 }
+.field input[type="submit"]{
+    background: #A5C9CA;
+    border: 1px solid white;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: ;
+    transition: 3s ease;
+}
