@@ -49,7 +49,7 @@ body{
     outline: none;
     color: #A5C9CA;
     font-size: 16px;
-    font-family: "Poppins", inter;
+    font-family: "Poppins", sans-serif;
 }
 .space{
     margin-top: 16px;
@@ -62,7 +62,7 @@ body{
     color: #A5C9CA;
     display: none;
     cursor: pointer;
-    font-family: "Poppins", inter;
+    font-family: "Poppins", sans-serif;
 
 }
 .pass-key:valid ~ .show{
@@ -76,7 +76,7 @@ body{
 .pass a{
     color: #A5C9CA;
     text-decoration: none;
-    font-family: "Poppins", inter;
+    font-family: "Poppins", sans-serif;
 }
 .pass:hover a{
     text-decoration: underline;
@@ -89,6 +89,14 @@ body{
     letter-spacing: 1px;
     font-weight: 600;
     cursor: pointer;
-    font-family: ;
+    font-family: "Poppins", sans-serif;
     transition: 3s ease;
+}
+.field input[type="submit"]:hover{
+    background: #A5C9CA;
+}
+.login{
+    color: black;
+    margin: 20px 0;
+    font-family: "Poppins", sans-serif;
 }
