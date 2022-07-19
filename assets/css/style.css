@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+
+                            /* Navbar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #395B64;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    height: 100px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav_items a{
+    font-size: 22px;
+}
+
+
+.nav_items a:focus{
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+    text-decoration-thickness:5px;
+    text-underline-offset: 8px;
+}
+
+.nav_heading a:focus{
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+    text-decoration-thickness:5px;
+    text-underline-offset: 8px;
+}
+
+.login a:focus, .signup a:focus{
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+    text-decoration-thickness:5px;
+    text-underline-offset: 8px;
+}
+
+div a:hover{
+    color: #A5C9CA;
+}
+
+.nav_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+.nav_heading{
+    align-self: center;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.login{
+    align-self: center;
+    margin-right: 0;
+}
+
+.signup{
+    align-self: center;
+    margin:auto;
+}
+
+.nav_right{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 20%;
+    font-size: 22px;
+}
+
+[alt=logo]{
+    width: 15%;
+    height: 15%;
+}
