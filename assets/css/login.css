@@ -180,7 +180,6 @@ form{
     border-radius: 10px;
 
 }
-/*
 .text_field label{
     position: absolute;
     top: 50%;
@@ -208,6 +207,7 @@ form{
 .text_field input:valid~label{
     width: 100%;
 }
+/*
 .pass{
     margin: 5px 0 20px 5px;
     cursor: pointer;
