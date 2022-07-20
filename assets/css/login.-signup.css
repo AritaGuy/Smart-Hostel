@@ -209,7 +209,7 @@ form{
 .pass{
     margin: 5px 0 20px 5px;
     cursor: pointer;
-    color: #E7F6F2;
+    color: #A5C9CA;
 }
 .pass:hover{
     text-decoration: underline;   
@@ -235,13 +235,16 @@ input[type="Submit"]:hover{
     color: #395B64;
 }
 .signup_link{
-    color: white;
+    color: #A5C9CA;
     text-decoration: none;
 }
 .signup_link a:hover{
     text-decoration: underline;
 }
 #log-in-here{
-    color: #A5C9CA;
+    color: white;
     text-decoration: none;
+}
+#signup-btn{
+    background-color: #A5C9CA;
 }
