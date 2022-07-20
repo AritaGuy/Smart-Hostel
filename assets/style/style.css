@@ -47,7 +47,7 @@ body{
     margin-left: 550px;
     margin-top: 40px;
 }
-.select{
+#select{
     height: 60px;
     width: 120px;
     margin-top: 50px;
@@ -55,7 +55,7 @@ body{
     background: none;
     border-style: none;
 }
-.select:hover{
+#select:hover{
     border-bottom: solid white 3px;
     
 }
@@ -97,4 +97,66 @@ body{
         margin-right: 20px;
       }
          /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-/* 
+
+#booking-form{
+    display: none;
+    box-sizing: border-box;
+    height: 550px;
+    width: 80%;
+    background-color: #395B64;
+    opacity: 0.7;
+    position: relative;
+    margin-left: 100px;
+    top: 10px;
+    bottom: 40px;
+    text-align: center;
+    /* visibility: hidden; */
+} 
+#hostel{
+    border-style: none;
+    height: 40px;
+    width: 200px;
+}
+#submitButton{
+    margin-top: 45px;
+    height: 40px;
+    width: 150px;
+    color: beige;
+    background-color: blue;
+    font-size: x-large;
+    border-style: none;
+    font-weight: 900;
+    
+}
+#blocktype{
+    border-style: none;
+    height: 40px;
+    width: 200px;
+}
+#room{
+    border-style: none;
+    height: 40px;
+    width: 200px;
+}
+#confirm-form{
+    display: none;
+    box-sizing: border-box;
+    height: 550px;
+    width: 80%;
+    background-color: #395B64;
+    opacity: 0.7;
+    position: relative;
+    margin-left: 100px;
+    top: 10px;
+    bottom: 40px;
+    text-align: center;
+    /* visibility: hidden; */
+} 
+.details{
+    height: 100px;
+    width : 40%;
+    background-color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 250px;
+}
