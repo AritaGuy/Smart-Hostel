@@ -119,6 +119,8 @@ div a:hover{
 }
 
 
+                                            /* Our products */
+
 .container3{
     display: flex;
     justify-content: space-around;
@@ -194,6 +196,7 @@ button{
 button:hover{
     background-color: #b2eff1;
 }
+
 
                     /* Footer */
 
@@ -367,6 +370,7 @@ button:hover{
     margin-top: 10px;
     color: white;
 }
+
 .container12 h6{
     margin-left: 40px;
     margin-bottom: 0;
