@@ -31,3 +31,13 @@ body{
     border-bottom: 2px solid #030303;
     margin: 30px 0;
 }
+.text_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.text_field label
