@@ -40,4 +40,34 @@ body{
     background: none;
     outline: none;
 }
-.text_field label
+.text_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #E7F6F2;
+    transform: translate(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.text_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background: #A5C9CA;
+    transition: 4s;
+}
+.text_field input:focus~label,
+.text_field input:valid~label{
+    top: 5px;
+    color: #A5C9CA;
+}
+.pass{
+    margin: 5px 0 20px 5px;
+    cursor: pointer;
+    color: #E7F6F2;
+
+}
+
