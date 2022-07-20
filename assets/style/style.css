@@ -1,6 +1,6 @@
-/* html{
-    background-color: azure;
-} */
+html{
+    position: relative;
+}
 body{
  margin-left: 300px;
  margin-right: 300px;
