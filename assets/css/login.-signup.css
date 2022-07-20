@@ -4,7 +4,7 @@
     box-sizing: border-box;
     user-select: none;
 }
-body{
+#signin-body{
     background-image: url(../images/undraw_sleep_analysis_o5f9.png);
 
 }
@@ -123,8 +123,7 @@ i span{
 
 
 /* Signup css section */
-
-body{
+#signup-body{
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -178,7 +177,7 @@ form{
     background: none;
     outline: none;
     border-radius: 10px;
-
+    color: white;
 }
 .text_field label{
     position: absolute;
@@ -242,7 +241,7 @@ input[type="Submit"]:hover{
 .signup_link a:hover{
     text-decoration: underline;
 }
-.HomeAbout{
-    width: 100vw;
-    height: 25vh;
+#log-in-here{
+    color: #A5C9CA;
+    text-decoration: none;
 }
