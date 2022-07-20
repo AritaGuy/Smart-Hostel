@@ -171,7 +171,7 @@ form{
     flex-direction: column;
 }
 .text_field input{
-    width: 70%;
+    width: 100%;
     padding: 0 5px;
     height: 40px;
     font-size: 16px;
@@ -207,12 +207,10 @@ form{
 .text_field input:valid~label{
     width: 100%;
 }
-/*
 .pass{
     margin: 5px 0 20px 5px;
     cursor: pointer;
     color: #E7F6F2;
-
 }
 .pass:hover{
     text-decoration: underline;   
@@ -238,7 +236,7 @@ input[type="Submit"]:hover{
     color: #395B64;
 }
 .signup_link{
-    color: #395B64;
+    color: white;
     text-decoration: none;
 }
 .signup_link a:hover{
