@@ -135,7 +135,6 @@ body{
     background-image: url(../images/undraw_listening_re_c2w0.svg);
     background-repeat: no-repeat;
 }   
-/*
 .center{
     border-radius: 10px;
     position: absolute;
@@ -151,6 +150,7 @@ body{
     box-shadow: 0 0 5px #E7F6F2;
     opacity: 70%;
 }
+/*
 .center h1{
     text-align: center;
     padding: 0 0 20px 0;
