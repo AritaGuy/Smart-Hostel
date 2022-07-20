@@ -211,13 +211,13 @@ hr{
     width: 90%;
     margin: auto;
     height: 300px;
-    align-items: stretch;
+    align-items: stretch; 
 }
 
 .fa.fa-star{
     font-size: 50px;
 }
-    
+
 #grey{
     color: #d4d2d2;
 }
@@ -235,7 +235,7 @@ hr{
 .feedback h2{
     font-family: 'Inter', sans-serif;
     font-size: 22px;
-
+    
 }
 
 .flex1,.flex2,.flex3{
@@ -282,6 +282,7 @@ hr{
     position: relative;
     top: 45px;
 }
+
 
                     /* Footer */
 
