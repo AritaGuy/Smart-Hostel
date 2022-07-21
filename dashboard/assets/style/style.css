@@ -34,7 +34,7 @@ body{
     /* background-color: lightblue; */
     top: 160px;
     position: absolute;
-    background-image: url(/assets/images/dash-background.png);
+    background-image: url(../images/dash-background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
