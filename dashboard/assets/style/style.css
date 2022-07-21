@@ -42,11 +42,22 @@ body{
     margin-left: 20px;
     margin-top: 20px;
 }
-#student_info{
+#sign-out{
     float: right;
-    margin-left: 550px;
+    margin-left: 1000px;
     margin-top: 40px;
+    height: 60px;
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background: none;
+    border-style: none;
 }
+
+#sign-out:hover{
+    border-bottom: solid white 3px;
+}
+
 #select{
     height: 60px;
     width: 120px;
@@ -159,4 +170,8 @@ body{
     font-weight: bold;
     font-size: large;
     margin-left: 250px;
+}
+#buttondiv{
+    margin-left: 550px;
+    margin-right: 40px;
 }
