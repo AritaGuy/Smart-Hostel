@@ -1,3 +1,6 @@
+## Description
+* This is a Smart Hostel website that will ease the challenge faced by students attending the Moringa School program. Its implementation will improve the lives and performance of Moringa students.
+
 ### Requirements
 
 * Any web browser on any device eg android, windows etc
