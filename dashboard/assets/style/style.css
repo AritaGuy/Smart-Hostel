@@ -1,0 +1,183 @@
+html{
+    position: relative;
+}
+body{
+ margin-left: 300px;
+ margin-right: 300px;
+ box-shadow: 2px grey solid; 
+ /* background-color: yellow; */
+ font-family: 'Poppins', sans-serif;
+ position: relative;
+}
+#topbar{
+    height: 150px;
+    width: 100%;
+    background-color: #A5C9CA;
+    position: relative;
+    display: flex;
+}
+#sidebar{
+    height: 715px;
+    width: 150px; 
+    background-color: #A5C9CA;
+    /* float: left; */
+    top: 250px;
+    /* position: relative; */
+    margin-top: 10px;
+    display: block;
+}
+#midbar{
+    margin-left: 170px;
+    height: 715px;
+    width: 86.5%;
+    float: left;
+    /* background-color: lightblue; */
+    top: 160px;
+    position: absolute;
+    background-image: url(../images/dash-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Head{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#sign-out{
+    float: right;
+    margin-left: 1000px;
+    margin-top: 40px;
+    height: 60px;
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background: none;
+    border-style: none;
+}
+
+#sign-out:hover{
+    border-bottom: solid white 3px;
+}
+
+#select{
+    height: 60px;
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background: none;
+    border-style: none;
+}
+#select:hover{
+    border-bottom: solid white 3px;
+    
+}
+#topbar img{
+   height: 100px;
+   width: 150px;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+@media (min-width:320px)  { 
+
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+}
+@media (max-width:480px)  { 
+    #html{
+        position: absolute;
+    }    
+    #body{ /*margin-left: 20px;
+          margin-right: 20px; */
+          width: 450px;
+          height: 700px;
+          position: relative;
+          margin: 0;
+          left: 10px;
+        }
+    #topbar img{
+         height: 10px;
+         width: 20px;
+    }
+    #topbar{
+        background-color: blueviolet;
+    }
+    
+    /* smartphones, Android phones, landscape iPhone */ 
+}
+/* @media (min-width:600px)  { 
+      #body{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+         /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+
+#booking-form{
+    display: none;
+    box-sizing: border-box;
+    height: 550px;
+    width: 80%;
+    background-color: #395B64;
+    opacity: 0.7;
+    position: relative;
+    margin-left: 100px;
+    top: 10px;
+    bottom: 40px;
+    text-align: center;
+    /* visibility: hidden; */
+} 
+#hostel{
+    border-style: none;
+    height: 40px;
+    width: 200px;
+}
+#submitButton{
+    margin-top: 45px;
+    height: 40px;
+    width: 150px;
+    color: beige;
+    background-color: blue;
+    font-size: x-large;
+    border-style: none;
+    font-weight: 900;
+    
+}
+#blocktype{
+    border-style: none;
+    height: 40px;
+    width: 200px;
+}
+#room{
+    border-style: none;
+    height: 40px;
+    width: 200px;
+}
+#confirm-form{
+    display: none;
+    box-sizing: border-box;
+    height: 550px;
+    width: 80%;
+    background-color: #395B64;
+    opacity: 0.7;
+    position: relative;
+    margin-left: 100px;
+    top: 10px;
+    bottom: 40px;
+    text-align: center;
+    /* visibility: hidden; */
+} 
+.details{
+    height: 100px;
+    width : 40%;
+    background-color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 250px;
+}
+#buttondiv{
+    
+    margin-right: 10px;
+    
+}
+#student_info{
+    margin-left: 500px;
+    padding-top: 50px;
+    
+}

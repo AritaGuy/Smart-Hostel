@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>login Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./assets/css/login.-signup.css">
+    <!--font-awesome-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+</head>
+<body id="signin-body">
+    <div class="container">
+        <div class="content">
+            <header>Login</header>
+            <hr>
+            <br>
+            <p>New to Smart-Hostel? <a href="./signup.html" id="sign_up">  Sign up.</a></p>
+            <br>
+            <form action="../dashboard/dashboard.html">
+                <div class="field">
+                    <span class="fa fa-user"></span>
+                    <input type="text" required placeholder="Enter Email ">
+                </div>
+                <br>
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input type="password" class="pass-key" required placeholder="Enter Password">
+                    <span class="show"></span>
+                </div>
+                <div class="pass">
+                    <a href="#"> Forgot password?</a>
+                </div>
+                <br>
+                <div class="field">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src='./assets/js/login.js'></script>
+</body>
+</html>

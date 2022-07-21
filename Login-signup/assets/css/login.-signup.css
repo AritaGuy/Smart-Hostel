@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+#signin-body{
+    background-image: url(../images/undraw_sleep_analysis_o5f9.png);
+
+
+}
+.content{
+    border-radius: 10px;
+    position: absolute;
+    content: "#";
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 60px 30px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    background: black;
+    border: 1px solid #A5C9CA;
+    box-shadow: 0 0 5px #E7F6F2;
+    opacity: 80%;
+    
+
+}
+.content header{
+    color: #A5C9CA;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: "poppins", Inter ;
+}
+.content p{
+    color: #A5C9CA;
+}
+#sign_up{
+    color: #A5C9CA;
+    text-decoration: none;
+}
+#sign_up:hover{
+    text-decoration: underline;
+}
+.field{
+    position: relative;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.field span{
+    position: relative;
+    width: 25px;
+    line-height: 15px;
+    color: #A5C9CA;
+    top: 10px;
+    right: 5px;
+}
+.field input{
+    height: 90%;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    color: #A5C9CA;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.space{
+    margin-top: 16px;
+}
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #A5C9CA;
+    display: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.pass-key:valid ~ .show{
+    display: block;
+}
+.pass{
+     text-align: left;
+     margin: 10px 0;
+}
+.pass a{
+    color: #A5C9CA;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+.pass:hover a{
+    text-decoration: underline;
+}
+.field input[type="submit"]{
+    background: #A5C9CA;
+    border: 2px solid #A5C9CA;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    transition: 3s ease;
+}
+.field input[type="submit"]:hover{
+    background: #A5C9CA;
+}
+.login{
+    color: black;
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+i span{
+    margin-left: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Signup css section */
+#signup-body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #395B64;
+    background-image: url(../images/undraw_listening_re_c2w0.svg);
+    background-repeat: no-repeat;
+    color: #A5C9CA;
+}   
+.center{
+    border-radius: 10px;
+    position: absolute;
+    content: "#";
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 60px 30px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    background: black;
+    border: 1px solid #A5C9CA;
+    box-shadow: 0 0 5px #E7F6F2;
+    opacity: 75%;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid #030303;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.form .text_field{
+    position: absolute;
+    border-bottom: 2px solid #030303;
+    margin: 30px 0;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+}
+.text_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #E7F6F2;
+    transform: translate(-50, -50%);
+    font-size: 16px;
+}
+.text_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background: #A5C9CA;
+    transition: 4s;
+}
+.text_field input:focus~label,
+.text_field input:valid~label{
+    top: 5px;
+    color: #A5C9CA;
+}
+.text_field input:focus~label,
+.text_field input:valid~label{
+    width: 100%;
+}
+.pass{
+    margin: 5px 0 20px 5px;
+    cursor: pointer;
+    color: #A5C9CA;
+}
+.pass:hover{
+    text-decoration: underline;   
+}
+input[type="Submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+input[type="Submit"]:hover{
+    background: #395B64;
+    color: #A5C9CA;
+    transition: 4s;
+}
+.signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #395B64;
+}
+.signup_link{
+    color: #A5C9CA;
+    text-decoration: none;
+}
+.signup_link a:hover{
+    text-decoration: underline;
+}
+#log-in-here{
+    color: white;
+    text-decoration: none;
+}
+#signup-btn{
+    background-color: #A5C9CA;
+}

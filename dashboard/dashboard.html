@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/moringa_hostel.png" type="image/icon type">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&family=Space+Grotesk:wght@300;400&display=swap');
+    </style>
+    <title>dashboard</title>
+</head>
+
+<body>
+    <div id="topbar">
+        <div id="logo">
+            <img src="./assets/images/moringa_hostel.png" alt="">
+        </div>
+        <div id="Head">
+            <h1>Moringa Smart Hostel</h1>
+        </div>
+        <div id="student_info">
+            <p>Sam Arita</p>
+        </div>
+        <div>
+            <div id="buttondiv"><a href="../Login-signup/login.html"><button id="sign-out">Sign out</button></a></div>
+        </div>
+    </div>
+    <div id="sidebar">
+        <button id="select">Book</button>
+        <button id="select">Status</button>
+        <button id="select">Room-mates</button>
+        <a href="../index.html">
+        <button id="select">Return Home</button></a>
+    </div>
+    <div id="midbar">
+        <div id="booking-form">
+            <h1>Book a room</h1>
+            <form id="bookform">
+                <label for="gender">
+                    <h3>Hostel</h3>
+                </label><br />
+                <select id="hostel" name="hostel">
+                    <option value="Hostel A">A</option>
+                    <option value="Hostel B">B</option>
+                    <OPTion value="Hostel C">C</OPTion>
+                </select><br />
+                <label for="Block">
+                    <h3>Type of room</h3>
+                </label><br />
+                <select id="blocktype" name="blocktype">
+                    <option value="Single" name="single">Single</option>
+                    <option value="Shared" name="single">Shared</option>
+                </select><br />
+                <label for="gender">
+                    <h3>Room number</h3>
+                </label><br />
+                <select id="room" name="room">
+                    <option value="Room 1" name="room1">1</option>
+                    <option value="Room 2" name="room2">2</option>
+                    <option value="Room 3" name="room3">3</option>
+                </select><br />
+                <button type="submit" id="submitButton">Submit</button>
+            </form>
+            </form>
+        </div>
+        <div id="confirm-form">
+            <h2>Congratulations, booking successful!!!</h2><br/>
+            <div class="details" id="message1">
+                <h3 id="confirm"></h3>
+            </div>
+            <div class="details" id="message2">
+                <h3></h3>
+            </div>
+            <div class="details" id="message3">
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+    <script src="../dashboard/assets/script/index.js"></script>
+</body>
+
+</html>
