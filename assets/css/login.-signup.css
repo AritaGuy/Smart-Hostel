@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+
 }
 #signin-body{
     background-image: url(../images/undraw_sleep_analysis_o5f9.png);
+
 
 }
 .content{
@@ -22,6 +24,8 @@
     border: 1px solid #A5C9CA;
     box-shadow: 0 0 5px #E7F6F2;
     opacity: 80%;
+    
+
 }
 .content header{
     color: #A5C9CA;
@@ -148,7 +152,7 @@ i span{
     background: black;
     border: 1px solid #A5C9CA;
     box-shadow: 0 0 5px #E7F6F2;
-    opacity: 70%;
+    opacity: 75%;
 }
 .center h1{
     text-align: center;
