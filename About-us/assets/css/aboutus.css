@@ -154,6 +154,17 @@ padding: 8px 24px;
 .container10{
     text-align: center;
 }
+.navbutton{
+    padding: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.getbtn{
+    background-color: #ED661F ;
+    color: white;
+    padding: 5px;
+    border: none;
+}
 .container10 h1{
     font-family: 'Inter', sans-serif;
     color: #2C3333;
